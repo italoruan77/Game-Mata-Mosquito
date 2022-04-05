@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Game - Mata Mosquito</title>
+
+    <script>
+       function iniciarjogo() {
+            var nivel = document.getElementById('nivel').value
+
+            if (nivel === '') {
+                alert('Selecione um Nível Para Jogar :)')
+                return false
+            }else{
+                window.location.href = 'jogo.html?' + nivel
+            }
+        }
+    </script>
+   
+</head>
+<body style="background-image: url(img/bg1.png);background-size: cover;
+background-repeat: no-repeat; width: 100%; height: 100vh;">
+    
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col">
+            <div class="d-flex position-absolute m-5">
+                <img src="img/mosquito.gif" width="150" alt="">
+               </div>
+            <div class="d-flex justify-content-center">
+            <div class="fimdejogo">
+                <img src="img/inicio.png" alt="" width="500px"> 
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col"> 
+            <div class="d-flex justify-content-center">
+                <div class="mb1">
+         <select class="form-control" id="nivel">
+             <option value="">SELECIONE UM NÍVEL</option>
+             <option value="Facil">FÁCIL</option>
+             <option value="medio">MÉDIO</option>
+             <option value="dificil">DIFÍCIL</option>
+         </select>
+        </div>
+        </div>
+        </div>
+    </div> 
+
+    <div class="row">
+        <div class="col">
+            <div class="botao">
+              <a type="button" class="btn btn-success" onclick="iniciarjogo()">Iniciar Jogo</a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
