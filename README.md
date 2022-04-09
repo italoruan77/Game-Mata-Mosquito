@@ -8,20 +8,20 @@
 ### 🖥️ Screenshot & Demo
 
 <div align="center">
-<img src="https://screenshot-proxy.netlify.app/f_jpeg,w_800/https://d33wubrfki0l68.cloudfront.net/624c6d5f0ec0735be73834fa/screenshot_2022-04-05-16-25-13-0000.png" alt="game mata mosquito" width="100%">
+<img src="https://d33wubrfki0l68.cloudfront.net/624c6d5f0ec0735be73834fa/screenshot_2022-04-05-16-25-13-0000.png" alt="game mata mosquito" width="100%">
 </div>
 
-#### Demo Url: https://i77matamosquito.netlify.app
+### 🌐 Demo Url: https://i77matamosquito.netlify.app
 ou Execute o Arquivo ` index.html `
   
 
 <hr><br>
 
-<a id="about"></a>
+
 ## :warning: Sobre o Projeto
 <p>Este projeto faz parte do curso de Desenvolvimento Web da Udemy, é o projeto prático do módulo Javascript. O principal objetivo do projeto foi aplicar os conhecimentos adquiridos no módulo criando o game mata mosquitos</p>
 
-<a id="objectivo"></a>
+
 ## :goal_net: Objetivo do Game
 <p> Eliminar todos os mosquitos que aparecem na tela, você tem 3 vidas para sobreviver matando os mosquitos até o fim do cronômetro.
 O jogo tem três níveis de dificuldade: fácil, médio e Difícil. 
